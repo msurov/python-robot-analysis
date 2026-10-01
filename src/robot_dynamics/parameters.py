@@ -1,0 +1,3 @@
+
+class RobotParameters:
+  pass
