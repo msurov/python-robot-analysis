@@ -1,9 +1,8 @@
-import numpy as np
+from common.linalg import det2x2
 
-def test_identity_matrix():
-  I = np.eye(3)
-  assert np.allclose(I @ I, I)
-
-def test_square_root():
-  sqrt_2 = np.sqrt(2)
-  assert abs(sqrt_2**2 - 2.0) < 1e-12
+def test_det2x2():
+  A = [
+    [1, 3],
+    [0, 4]
+  ]
+  assert 4 == det2x2(A)
