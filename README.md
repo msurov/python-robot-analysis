@@ -25,11 +25,11 @@ root/
 │	│   ├── quaternions.py        ← submodule "common.quaternions"
 │	│   └── linalg.py             ← submodule "common.linalg"
 │	│
-│	└── scenarios/                ← package
+│	└── robot_scenarios/          ← package
 │	    ├── __init__.py
-│	    └── launch_free_motion.py ← submodule "scenarios.launch_free_motion"
+│	    └── launch_free_motion.py ← submodule "robot_scenarios.launch_free_motion"
 │	 
-└── tests/                        ← tests folder
+└── tests/                      ← tests folder
 	│
 	├── robot_dynamics/
 	│   ├── test_dynamics.py

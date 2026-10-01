@@ -21,7 +21,7 @@ dev = [
 
 [tool.setuptools.packages.find]
 where = ["src"]        # discover top-level packages robot_dynamics, 
-                       # robot_visualization, common, scenarios
+                       # robot_visualization, common, robot_scenarios
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
